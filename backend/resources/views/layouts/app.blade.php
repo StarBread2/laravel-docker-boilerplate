@@ -8,25 +8,24 @@
 
 <body class="bg-gray-100">
     <!-- Header -->
-    {{-- <header class="bg-white shadow">
+    <header class="bg-white shadow">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-end gap-4">
-            <a href="/animals"
+            <a href="/projects"
             class="px-4 py-2 bg-black text-white rounded">
-                View Animal List
+                View Project List
             </a>
 
-            <a href="/animals/create"
+            <a href="/projects/create"
             class="px-4 py-2 bg-blue-700 text-white rounded">
-                Add Animal
+                Add Project
             </a>
 
-            <a href="/animals/edit"
+            <a href="/projects/edit"
             class="px-4 py-2 bg-blue-700 text-white rounded">
-                Edit Animal List
+                Edit Project List
             </a>
-
         </div>
-    </header> --}}
+    </header> 
 
     <div class="max-w-7xl mx-auto p-6">
         @yield('content')
